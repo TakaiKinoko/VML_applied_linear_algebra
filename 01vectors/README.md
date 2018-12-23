@@ -23,7 +23,7 @@
 
 ### linear combination
 1. any n-vector b can be written as a linear combination of unit vectors, as 
-```
+    ```
     b = b1e1 + b2e2 + ... + bnen
-```
-in which bi is the ith entry of b, ei is the ith unit vector.
+    ```
+    in which bi is the ith entry of b, ei is the ith unit vector.
