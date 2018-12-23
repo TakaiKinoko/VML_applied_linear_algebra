@@ -47,10 +47,16 @@
 1. blocked (stacked) vector
     * mathematical notation: [x; y] -- stack x y together
     * julia: 
-    ```
-    vcat(x, y)
-    ```
-     -- create a new vector 
+    1. 
+        ```
+        vcat(x, y)
+        ```
+        -- create a new vector 
+    1. 
+        ```
+        x = [1, -2]; y = [1, 1, 0]
+        z = [x; y]
+        ```
     * pitfall: neither of these below creates stack vectors: 
     ```
     z = (x, y)  #creates a tuple of the two vetors
@@ -59,4 +65,8 @@
     z = [x, y]  #creates an array of the two vectors
     ```
 1. Average of the entries
-    * avg(a) computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
+    * 
+    ```
+    avg(a)
+    ```
+     computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
