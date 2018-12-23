@@ -34,7 +34,7 @@
 
 1. inner product of block vectors
     If the vectors a and b are block vectors, and the correspoinding blocks have the same sizes (that they *conform*), then we have 
-    a<sup>T</sup>b = a<sub>1</sub><sup>T</sup>b<sub>1</sub> + ... + a<sub>k</sub><sup>T</sup>
+    a<sup>T</sup>b = a<sub>1</sub><sup>T</sup>b<sub>1</sub> + ... + a<sub>k</sub><sup>T</sup>  (where a<sub>i</sub>, b<sub>i</sub> are vectors themselves)
 
 ### Julia language features
 1. assignment vs. copy
