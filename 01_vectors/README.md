@@ -32,6 +32,9 @@
     * Sum of squares: a<sup>T</sup> a = a<sub>1</sub>^2 + ... + a<sub>n</sub>^2
     * Selective sum: b is a bit mask, b<sub>T</sub>a is the sum of the elements in a which b<sub>i</sub> = 1
 
+1. inner product of block vectors
+    If the vectors a and b are block vectors, and the correspoinding blocks have the same sizes (that they *conform*), then we have 
+    a<sup>T</sup>b = a<sub>1</sub><sup>T</sup>b<sub>1</sub> + ... + a<sub>k</sub><sup>T</sup>
 
 ### Julia language features
 1. assignment vs. copy
