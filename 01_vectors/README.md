@@ -41,8 +41,5 @@
     * **convex combination/weighted average/mixture** When the coefficients in an affine combination are nonnegative
 
 ### convex combination
-    * https://en.wikipedia.org/wiki/Convex_combination
-    * When a and b are different n-vectors, the affine combination c = (1 − θ)a + θb, where θ is a scalar, describes a point on the line passing through a and b. When 0 ≤ θ ≤ 1, c is a convex combination of a and b,and is said to lie on the segment between a and b.
-
-
-    
+* https://en.wikipedia.org/wiki/Convex_combination
+* When a and b are different n-vectors, the affine combination c = (1 − θ)a + θb, where θ is a scalar, describes a point on the line passing through a and b. When 0 ≤ θ ≤ 1, c is a convex combination of a and b,and is said to lie on the segment between a and b.
