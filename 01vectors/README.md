@@ -8,4 +8,17 @@
 
 1. blocked (stacked) vector
     * mathematical notation: [x; y] -- stack x y together
-    * julia: vcat(x, y) -- create a new vector  
+    * julia: 
+    ```
+    vcat(x, y)
+    ```
+     -- create a new vector 
+    * pitfall: in julia, 
+    ```
+    z = (x, y)
+    ```
+    creates a tuple of the two vetors
+    ```
+    z = [x, y] 
+    ```
+    creates an array of the two vectors
