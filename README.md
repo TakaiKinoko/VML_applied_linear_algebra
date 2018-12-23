@@ -5,5 +5,6 @@ Vectors, Matrices, and Least Squares exercises by Stephen Boyd and Lieven Vanden
 The best thing about this book is all the application examples associated with each block of knowledge, which wasn't part of my previous study of linear algebra. 
 I didn't include the examples in the README notes(see below) though.
 
-### README.md in each chapter folder:
-My notes from both the textbook and the julia-lang-companion to it. Should suffice to replace them when reviews are needed.
+### In each chapter folder:
+* My notes on the textbook are stored in README.md 
+* My notes on the julia-lang-companion are stored in JULIA.md 
