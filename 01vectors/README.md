@@ -39,4 +39,5 @@
     * **average** the linear combination with β1 = ··· = βm = 1/m, given by (1/m)(a1 +···+am), is the average of the vectors
     * **affine combination** When the coefficients sum to one, i.e., β1 + · · · + βm = 1, the linear combination is called an affine combination
     * **convex combination/weighted average/mixture** When the coefficients in an affine combination are nonnegative
+
     
