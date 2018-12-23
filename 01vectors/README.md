@@ -13,12 +13,10 @@
     vcat(x, y)
     ```
      -- create a new vector 
-    * pitfall: in julia, 
+    * pitfall: neither of these below creates stack vectors: 
     ```
-    z = (x, y)
+    z = (x, y)  #creates a tuple of the two vetors
     ```
-    creates a tuple of the two vetors
     ```
-    z = [x, y] 
+    z = [x, y]  #creates an array of the two vectors
     ```
-    creates an array of the two vectors
