@@ -1,26 +1,3 @@
-### Julia language features
-1. assignment vs. copy
-    * the assignment operator passes the reference of the right-hand right to the left-hand side.  
-    * to create a new copy of a vector, use copy()
-
-1. equality test
-    * ==
-
-1. blocked (stacked) vector
-    * mathematical notation: [x; y] -- stack x y together
-    * julia: 
-    ```
-    vcat(x, y)
-    ```
-     -- create a new vector 
-    * pitfall: neither of these below creates stack vectors: 
-    ```
-    z = (x, y)  #creates a tuple of the two vetors
-    ```
-    ```
-    z = [x, y]  #creates an array of the two vectors
-    ```
-
 ### linear combination
 1. If a1 , ... , am are n-vectors, and β1 , . . . , βm are scalars, the n-vector
     ```
@@ -51,4 +28,32 @@
 1. 
     * Unit vector: e<sub>i</sub><sup>T</sup>a = a<sub>i</sub>
     * Sum: 1<sup>T</sup>a = a<sub>1</sub> + ... + a<sub>n</sub>
-    
+    * Average: (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n
+    * Sum of squares: a<sup>T</sup> a = a<sub>1</sub>^2 + ... + a<sub>n</sub>^2
+    * Selective sum: b is a bit mask, b<sub>T</sub>a is the sum of the elements in a which b<sub>i</sub> = 1
+
+
+### Julia language features
+1. assignment vs. copy
+    * the assignment operator passes the reference of the right-hand right to the left-hand side.  
+    * to create a new copy of a vector, use copy()
+
+1. equality test
+    * ==
+
+1. blocked (stacked) vector
+    * mathematical notation: [x; y] -- stack x y together
+    * julia: 
+    ```
+    vcat(x, y)
+    ```
+     -- create a new vector 
+    * pitfall: neither of these below creates stack vectors: 
+    ```
+    z = (x, y)  #creates a tuple of the two vetors
+    ```
+    ```
+    z = [x, y]  #creates an array of the two vectors
+    ```
+1. Average of the entries
+    * avg(a) computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
