@@ -72,7 +72,7 @@
         computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
 
 1. slicing (subvector)
-    *
+    * slicing into a vector
         ```
         x = [1, 2, 3, 4, 5]
         y = x[2:4]
