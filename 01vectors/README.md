@@ -22,8 +22,21 @@
     ```
 
 ### linear combination
+1. If a1 , ... , am are n-vectors, and β1 , . . . , βm are scalars, the n-vector
+    ```
+    β1a1 +···+βmam
+    ```
+    is called a linear combination of the vectors a1,..., an. The scalars β1,..., βm are
+    called the coefficients of the linear combination.
+
 1. any n-vector b can be written as a linear combination of unit vectors, as 
     ```
     b = b1e1 + b2e2 + ... + bnen
     ```
     in which bi is the ith entry of b, ei is the ith unit vector.
+1. **special** linear combinations
+    * **sum** the linear combination with β1 = · · · = βm = 1, given by a1 + · · · + am , is the sum of the vectors
+    * **average** the linear combination with β1 = ··· = βm = 1/m, given by (1/m)(a1 +···+am), is the average of the vectors
+    * **affine combination** When the coefficients sum to one, i.e., β1 + · · · + βm = 1, the linear combination is called an affine combination
+    * **convex combination/weighted average/mixture** When the coefficients in an affine combination are nonnegative
+    
