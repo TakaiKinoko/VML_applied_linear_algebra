@@ -45,7 +45,10 @@
 * When a and b are different n-vectors, the affine combination c = (1 − θ)a + θb, where θ is a scalar, describes a point on the line passing through a and b. When 0 ≤ θ ≤ 1, c is a convex combination of a and b,and is said to lie on the segment between a and b.
 
 ### inner product
-1. property: 
+1. one of the properties: 
     (a + b)<sup>T</sup>(c + d) = a<sup>T</sup>c + a <sup>T</sup> d + b <sup>T</sup>c + b <sup>T</sup> d
     
-1. Unit vector: e<sub>i</sub><sup>T</sup>a = a<sub>i</sub>
+1. 
+    * Unit vector: e<sub>i</sub><sup>T</sup>a = a<sub>i</sub>
+    * Sum: 1<sup>T</sup>a = a<sub>1</sub> + ... + a<sub>n</sub>
+    
