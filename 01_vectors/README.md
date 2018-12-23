@@ -66,7 +66,18 @@
     ```
 1. Average of the entries
     * 
-    ```
-    avg(a)
-    ```
-     computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
+        ```
+        avg(a)
+        ```
+        computes (1/n)<sup>T</sup>a = (a<sub>1</sub> + ... + a<sub>n</sub>)/n 
+
+1. slicing (subvector)
+    *
+        ```
+        x = [1, 2, 3, 4, 5]
+        y = x[2:4]
+        ```
+    * partial reassginment 
+        ```
+        x[4:5] = [-4, -5]
+        ```
