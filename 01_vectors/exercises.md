@@ -14,8 +14,10 @@
 * (f) -- incorrect -- adding a 10x2 matrix to a 20x1 matrix
 * (g) -- correct -- 20-vector
 
-#### 1.3
-* (a) 
-* (b)
-* (c)
-* (d)
+#### 1.3 -- not sure!!
+* (a) -- correct, unambiguous -- 0's length can be inferred from the context
+* (b) -- incorrect -- (0, b) exceeds the length of a
+* (c) -- correct? but ambiguous -- can't infer the what the lengths of 0 vectors are respectively
+* (d) -- incorrect -- 0 is overloaded within the same expression
+
+#### 1.4
