@@ -53,4 +53,4 @@
 #### when to use
 In many applications, scalar-valued functions of n variables, or relations between n variables and a scalar one, can be **approximated** as linear or affine functions, which are called a **model**
 
-![Taylor approximation](/taylor.png)
+![Taylor approximation](taylor.png)
