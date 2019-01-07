@@ -65,3 +65,6 @@ In many applications, scalar-valued functions of n variables, or relations betwe
 
 * taylor approximation using **inner product notation** 
 ![inner product](inner.png)
+
+* example 
+![taylor example](example.png)
