@@ -19,3 +19,8 @@
 * **superposition equality**: f(αx + βy) = αf(x) + βf(y)
 * the inner product function satisfy the **superposition** property, thus it is **linear**. 
 * superposition equality: on the left-hand side, the term αx + βy involves scalar-vector multiplication and vector addition. On the right-hand side, αf(x) + βf(y) involves ordinary scalar multiplication and scalar addition.
+* if a function is linear, superposition extends to linear combinations of any number of vectors, not just two. 
+* **another presentation of superposition**
+    1. Homogeneity. For any n-vector x and any scalar α, f(αx) = αf(x)
+    1. Additivity. For any n-vectors x and y, f(x + y) = f(x) + f(y)
+    Homogeneity states that scaling the (vector) argument is the same as scaling the function value; additivity says that adding (vector) arguments is the same as adding the function values.
