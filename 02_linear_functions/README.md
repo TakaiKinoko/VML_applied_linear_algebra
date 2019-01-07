@@ -68,3 +68,20 @@ In many applications, scalar-valued functions of n variables, or relations betwe
 
 * example 
 ![taylor example](example.png)
+
+## Regression model
+* regression is a commonly used affine function, esp. when the n-vector x represents a feature vector. 
+
+* **DEFINITION** 
+    The affine function of x given by **yˆ = x<sup>T</sup>β + v**, where β is an n-vector and v is a scalar, is called a **regression model**. 
+    *
+        The entries of x are called the       regressors, and yˆ is called the    prediction, which approximate some true value y that is called the dependent value/outcome/label.
+    *
+        The vector β is called the weight vector or coefficient vector, and the scalar v is called the offset or intercept in the regression model
+    * 
+        Together, β and v are called the parameters in the regression model.
+
+* interpreting the weight vector:
+    * βi is the amount by which yˆ increases (if βi > 0) when feature i increases by one (with all other features the same).
+* The offset v is the value of yˆ when all features have the value 0.
+
