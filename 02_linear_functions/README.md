@@ -28,3 +28,6 @@
 #### represent a linear function as inner product 
 * If a function is linear, then it can be expressed as the inner product of its argument with some fixed vector.
 * Suppose f is a scalar-valued function of n-vectors, and is linear, then *there is an n-vector a such that f(x) = a<sup>T</sup>x for all x*, where a<sup>T</sup>x is the **inner product representation of f**
+* e.g. f(x) = f(x<sub>1</sub>e<sub>1</sub>, x<sub>2</sub>e<sub>2</sub>, ..., x<sub>n</sub>e<sub>n</sub>) 
+    = x<sub>1</sub>f(e<sub>1</sub>) + x<sub>2</sub>f(e<sub>2</sub>) + ... + x<sub>n</sub>f(e<sub>n</sub>) 
+    = a<sup>T</sup>x
