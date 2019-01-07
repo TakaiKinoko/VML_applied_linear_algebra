@@ -53,4 +53,15 @@
 #### when to use
 In many applications, scalar-valued functions of n variables, or relations between n variables and a scalar one, can be **approximated** as linear or affine functions, which are called a **model**
 
+#### approximate affine model
+* suppose that f: R<sup>n</sup> -> R is differentiable. Let z be an n-vector. The Taylor approximation of f near the point z is the function: 
 ![Taylor approximation](taylor.png)
+
+* The hat appearing over f on the left-hand side is a common notational hint that it is an approximation of the function f.
+
+* Sometimes fˆ is written with a second vector argument, as fˆ(x;z), to show the point z at which the approximation is developed.
+
+* fˆ is an **affine** function of x. It is sometimes called the **linear approximation** of f near z
+
+* taylor approximation using **inner product notation** 
+![inner product](inner.png)
