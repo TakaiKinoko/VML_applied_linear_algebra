@@ -23,4 +23,8 @@
 * **another presentation of superposition**
     1. Homogeneity. For any n-vector x and any scalar α, f(αx) = αf(x)
     1. Additivity. For any n-vectors x and y, f(x + y) = f(x) + f(y)
-    Homogeneity states that scaling the (vector) argument is the same as scaling the function value; additivity says that adding (vector) arguments is the same as adding the function values.
+* Homogeneity states that scaling the (vector) argument is the same as scaling the function value; additivity says that adding (vector) arguments is the same as adding the function values.
+
+#### represent a linear function as inner product 
+* If a function is linear, then it can be expressed as the inner product of its argument with some fixed vector.
+* Suppose f is a scalar-valued function of n-vectors, and is linear, then *there is an n-vector a such that f(x) = a<sup>T</sup>x for all x*, where a<sup>T</sup>x is the **inner product representation of f**
