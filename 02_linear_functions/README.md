@@ -12,3 +12,10 @@
 
 #### inner product function
 * suppose a is an n-vector, f(x) = a<sup>T</sup>x = a<sub>1</sub>x<sub>1</sub>, a<sub>2</sub>x<sub>2</sub>, ..., a<sub>n</sub>x<sub>n</sub> 
+
+* f can be thought of as forming a weighted sum of the elements of x 
+
+#### superposition and linearity
+* **superposition equality**: f(αx + βy) = αf(x) + βf(y)
+* the inner product function satisfy the **superposition** property, thus it is **linear**. 
+* superposition equality: on the left-hand side, the term αx + βy involves scalar-vector multiplication and vector addition. On the right-hand side, αf(x) + βf(y) involves ordinary scalar multiplication and scalar addition.
